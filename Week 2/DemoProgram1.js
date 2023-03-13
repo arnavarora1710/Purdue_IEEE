@@ -37,6 +37,8 @@ console.log(mathVar);
 
 console.log("--------------");
 
+let varTest = 27;
+
 // Demonstrates a basic if/else statement
 if(mathVar == varTest) {
     console.log(true);
