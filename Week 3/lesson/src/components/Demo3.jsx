@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Demo3.css"
 
 // Components are functions which are exported to be used elsewhere
 export default function Demo3() {
@@ -6,6 +7,7 @@ export default function Demo3() {
     return (
         <>
         {/* JSX to be rendered */}
+        <p className='text_brown'>This text is brown.</p>
         </>
     );
 

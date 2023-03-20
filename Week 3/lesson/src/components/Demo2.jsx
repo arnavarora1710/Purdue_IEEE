@@ -8,14 +8,14 @@ export default function Demo2() {
   /* IGNORE END */
 
   // base jsx
-  const basicJSX = <p>Hello world!</p>;
+  const basicJSX = <p>Basic JSX</p>;
   // jsx with nesting
-  const nestedJSX = <div><h1>Hello!</h1><p>hi</p></div>;
+  const nestedJSX = <div><h1>Nested</h1><p>JSX</p></div>;
   // multiline jsx
   const multiJSX = (
     <div>
-      <h1>Hello!</h1>
-      <p>hi</p>
+      <h1>Nested MULTI</h1>
+      <p>JSX</p>
     </div>
   );
 

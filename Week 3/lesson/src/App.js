@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import Demo2 from './components/Demo2';
+import Demo3 from './components/Demo3';
 import Demo4 from './components/Demo4';
 
 function App() {
@@ -30,10 +31,11 @@ function App() {
           </header>
         </div> : null }
       </div>
-      <div id="Demo2">
+      <div id="Demo2 ">
         <button onClick={ () => { setShowDemo2(!showDemo2) } }>Show Demo 2</button>
         {showDemo2 ? <Demo2 /> : null }
       </div>
+      <Demo3 /> 
       <Demo4 />
     </>
   );
